@@ -50,10 +50,7 @@
     "start": "node scripts/start.js",
     "build": "npm run clean && webpack --config webpack/webpack.prod.config.js",
     "test": "node scripts/test.js --env=jsdom",
-    "clean": "rm -rf build"
-  },
-  "devDependencies": {
-    "babel-loader": "^7.1.2"
+    "clean": "rm -rf public/static && rm -rf build"
   },
   "jest": {
     "collectCoverageFrom": [

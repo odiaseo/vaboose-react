@@ -3,7 +3,7 @@ require('dotenv').config({silent: true});
 const webpack = require('webpack');
 const path = require('path');
 
-const BUILD_DIR = path.resolve(__dirname, '../build');
+const BUILD_DIR = path.resolve(__dirname, '../public/static');
 const APP_DIR = path.resolve(__dirname, '../src');
 
 const config = {
